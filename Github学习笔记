@@ -1,0 +1,63 @@
+# GitHub学习笔记
+
+## 简介
+GitHub是一个基于Git的版本控制和协作平台，它允许用户托管和管理代码，跟踪任务和增强代码质量。
+
+## 账户创建
+1. 访问 [GitHub官网](https://github.com/)
+2. 点击右上角的“Sign up”按钮
+3. 填写必要的信息并验证
+4. 完成账户创建
+
+## 常用命令
+- `git init`: 初始化一个新的仓库
+- `git clone [url]`: 克隆远程仓库到本地
+- `git add .`: 添加所有文件到暂存区
+- `git commit -m "[message]"`: 提交暂存区的文件到仓库
+- `git push origin main`: 将本地仓库的代码推送到远程仓库
+- `git pull origin main`: 从远程仓库拉取最新的代码到本地
+
+## 仓库管理
+- **创建仓库**: 在GitHub上创建一个新的仓库
+- **分支管理**: 使用`git branch`创建和管理分支
+- **合并分支**: 使用`git merge`合并分支
+- **标签管理**: 使用`git tag`创建和推送标签
+
+## 协作流程
+1. **Fork**: 复制别人的仓库到自己的GitHub账户
+2. **Clone**: 将Fork的仓库克隆到本地
+3. **Branch**: 创建新的分支进行开发
+4. **Commit**: 提交更改
+5. **Push**: 推送更改到远程仓库
+6. **Pull Request**: 创建一个合并请求，请求将你的更改合并到原始仓库
+
+## 问题跟踪
+- **Issues**: 用于跟踪项目中的任务、增强和错误
+- **Milestones**: 用于管理项目的关键里程碑
+- **Projects**: 用于组织和优先处理工作
+
+## 代码审查
+- **Pull Requests**: 用于代码审查和讨论更改
+- **Code Review**: 审查者可以评论、批准或请求更改
+
+## 持续集成
+- **GitHub Actions**: 自动化、持续集成和部署工作流程
+
+## 安全性
+- **Two-Factor Authentication (2FA)**: 增加账户安全性
+- **Dependency Graph**: 识别依赖项中的安全漏洞
+
+## 资源
+- [GitHub官方文档](https://docs.github.com/)
+- [GitHub学习实验室](https://lab.github.com/)
+
+## 快捷键
+- `Ctrl + Enter`: 提交评论或提交表单
+- `t`: 切换到文件树视图
+- `w`: 关闭当前标签页
+
+## 技巧和最佳实践
+- 保持仓库整洁，定期清理无用分支
+- 编写有意义的提交信息
+- 使用`.gitignore`忽略不需要跟踪的文件
+- 保持与上游仓库的同步
